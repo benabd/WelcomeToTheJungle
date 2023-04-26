@@ -2,7 +2,7 @@
 const {test, expect} = require('@playwright/test');
 const assert = require("assert");
 
-test('Connection', async ({page}) => {
+test('Upload new avatar image', async ({page}) => {
     test.setTimeout(120000);
     await page.goto('https://playwright.dev/');
     await page.goto('https://welcometothejungle.com');
